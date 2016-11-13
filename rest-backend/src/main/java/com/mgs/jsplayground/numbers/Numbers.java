@@ -1,6 +1,7 @@
 package com.mgs.jsplayground.numbers;
 
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -10,6 +11,7 @@ import java.util.List;
 
 @RestController
 @EnableAutoConfiguration
+//@CrossOrigin(origins = "http://localhost:8888")
 public class Numbers {
 
     @RequestMapping("/numbers")

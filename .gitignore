@@ -1,5 +1,8 @@
 bin
 build
+node_modules
+npm-debug.log
+target
 .gradle
 .idea
 *.iml

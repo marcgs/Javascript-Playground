@@ -11,7 +11,6 @@ import java.util.List;
 
 @RestController
 @EnableAutoConfiguration
-//@CrossOrigin(origins = "http://localhost:8888")
 public class Numbers {
 
     @RequestMapping("/numbers")
